@@ -1,0 +1,19 @@
+<html>
+
+<head>
+ <script src="assets/js/reload.js"></script>
+
+</head>
+
+<body>
+<div id="loaddiv">Default text</div>
+
+<script>
+var auto_refresh = setInterval(
+function()
+{
+$('#loaddiv').fadeOut('slow').load('reload.html').fadeIn("slow");
+}, 20000);
+</script>
+</body>
+</html>

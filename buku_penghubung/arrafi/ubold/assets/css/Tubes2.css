@@ -1,0 +1,333 @@
+.kontainer {
+	margin : auto;
+	width : 1300px;
+	}
+
+body{
+background-image : url("bgkwhite.jpg");
+}
+	
+.menu{
+	background-color : white;
+	border-style : solid;
+	border-color :  white;
+	width : 1082px;
+	height : 110px;
+	margin-left: 100px;
+	padding : 19px;
+}
+
+
+
+#search{
+float : right;
+margin-right: 20px;
+margin-top : 16px;
+}
+
+#input{
+float : auto;
+margin-right:60px;
+float: left;
+}
+
+textarea{
+margin-right: 30px;
+}
+
+
+input[type=submit] {
+     background: linear-gradient(to bottom, #0088CC, #0044CC);
+	border-style : dashed;
+    border: 1px solid #0088CC;
+    color: #FFF;
+    margin: 4px 4px;
+    width: 50px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+.trace input[type=submit] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+	border-style : dashed;
+    border: 1px solid #0088CC;
+    color: #FFF;
+    margin: 4px 4px;
+    width: 50px;
+	margin-right : 30px;
+}
+
+.gambarmenut img {
+border-radius : 0px 10px 10px 0px;
+}
+
+
+a{
+color: white;
+text-decoration:none;
+}
+
+.news a{
+color: white;
+text-decoration:none;
+}
+
+table{
+color: ;
+}
+
+img {
+ margin-left : 20px;
+}
+
+.isimenu{
+    background-color : white;
+	text-align: right;
+	width : 285px;
+	height :28px;
+	float:right;
+	margin-top : 19px;
+	margin-right : 8px;
+	color : white;
+	font-weight: bold;
+	}
+
+.garis{
+width : 1120px;
+height : 8px;
+background-color : black;
+margin-left:100px;
+border-style : double;
+border-color :  white;
+}
+
+.menutengah{
+background-color : white;
+
+margin-left:100px;
+padding : 10px;
+
+}
+
+.isimenu2{
+background-color : white;
+width : 350px;
+height : 390px;
+float : left;
+border-radius : 10px 0px 0px 10px;
+}
+ 
+.layanan1{
+ background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+width : 353px;
+height : 60px;
+text-align : right;
+padding : 0px;
+border-bottom: 5px solid Dodgerblue;
+border-radius : 10px 0px 0px 0px;
+}
+
+.layanan{
+ background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+width : 353px;
+height : 60px;
+text-align : right;
+padding : 0px;
+border-bottom: 5px solid Dodgerblue;
+color: white;
+}
+
+.layanan2{
+ background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+width : 353px;
+height : 59px;
+text-align : right;
+padding : 0px;
+border-bottom: 5px solid Dodgerblue;
+color: white;
+border-radius : 0px 0px 0px 10px;
+}
+
+.gambarmenut{
+background-color : white;
+width : 750px;
+height : 394px;
+margin-bottom : 10px;
+float : left;
+margin-left:5px;
+border-radius : 0px 10px 10px 0px;
+}
+
+.cek{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+width : 350px;
+height : 210px;
+margin-top : 8px;
+color: white;
+text-align : left;
+float : left;
+border-radius : 10px 10px 10px 10px;
+padding : 2px;
+}
+
+
+
+.welcome{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+width : 740px;
+height : 212px;
+text-align : left;
+color : white;
+padding : 2px;
+float : left;
+margin-left : 5px;
+margin-top : 8px;
+border-radius : 10px 10px 10px 10px;
+}
+
+
+
+.trace{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+width: 346px;
+height: 250px;
+float: left;
+margin-top: 5px;
+text-align: left;
+padding: 3px;
+color: white;
+border-radius: 10px 10px 10px 10px;
+}
+
+.news{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+width: 743px;
+height: 500px;
+float: left;
+margin-left: 5px;
+margin-top: 5px;
+padding: 3px;
+border-radius: 10px 10px 10px 10px;
+}
+
+.berita{
+width: 220px;
+height: 400px;
+float: left;
+margin-left: 10px;
+border-right: 8px solid;
+border-bottom: 14px solid;
+border-left: 2px solid;
+border-top: 4px solid;
+padding: 1px 3px 2px;
+border-color: Dodgerblue;
+border-radius: 10px 10px 10px 10px;
+color: white;
+}
+
+
+
+
+.menubawah{
+	background-color : white;
+	border-style : solid;
+	border-color :  white;
+	width : 1100px;
+	height : 110px;
+	margin-left:100px;
+	padding : 10px;
+	color : white;
+	text-align : right;
+}
+
+.isimenubawah{
+    background-color : white;
+	text-align: right;
+	width : 285px;
+	height :28px;
+	float:right;
+	margin-top : 30px;
+	margin-right : 0px;
+	color : white;
+	font-weight: bold;
+	}
+	
+
+.award{
+
+ background-color : white;
+	width : 300px;
+	height :122px;
+	float : left;
+	margin-left : 100px;
+border-radius: 20px 20px 0px 0px;
+}
+
+-webkit-scrollbar {height:12px;width: 12px;background: #00A000;}
+
+
+.news a:hover{
+color : Deepskyblue;
+}
+
+.layanan1 a:link{
+display:block;
+color:#FFFFFF;
+background-color : rgba;
+width:353px;
+height : 60px;
+text-align:center;
+padding: 1px 10px 1px 1px;
+text-decoration:none;
+border-radius : 10px 0px 0px 0px;
+}
+
+.layanan1 a:hover{
+background-color:red;
+font-size : 120%;
+}
+
+.layanan a:link{
+display:block;
+color:#FFFFFF;
+background-color : rgba;
+width:353px;
+height : 60px;
+text-align:center;
+padding: 1px 0px 0px 0px;
+text-decoration:none;
+}
+
+.layanan a:hover{
+background-color:red;
+font-size : 120%;
+}
+
+.layanan2 a:link{
+display: block;
+color:#FFFFFF;
+background-color : rgba;
+width:353px;
+height : 60px;
+text-align:center;
+padding: 1px 0px 0px 0px;
+border-radius : 0px 0px 0px 10px;
+text-decoration:none;
+}
+
+.layanan2 a:hover{
+background-color:red;
+font-size : 120%;
+}
+
+
+
+
+
+
