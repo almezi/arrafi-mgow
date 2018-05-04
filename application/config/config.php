@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/tes/';//http://hebat.web.id/arrafi/
+$config['base_url'] = 'http://localhost/arrafi-mgow/';//http://hebat.web.id/arrafi/
 /*
 |--------------------------------------------------------------------------
 | Index File
