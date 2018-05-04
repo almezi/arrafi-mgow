@@ -31,7 +31,7 @@ class M_guru extends CI_Model {
         $query = $this->db->query("update user set password = md5('$pass') where id_user='$id'");
                 return $query;
     }*/
-    
+
 
 	public function thnajar()
     {
@@ -69,7 +69,7 @@ class M_guru extends CI_Model {
 	{
 		$id=$this->session->userdata('username');
 		$thnajar=$this->thnajar();
-		$query=$this->db->query("select distinct m.*,a.thnajar from mapel m
+		$query=$this->db->query("select distinct m.nama,a.thnajar from mapel m
 		join ajar a on(m.idmapel=a.idmapel) join guru g on(g.nip=a.nip) join user u on(u.username=g.username)
 		where a.thnajar='$thnajar'");
 		return $query;
@@ -129,7 +129,7 @@ class M_guru extends CI_Model {
 		$this->db->where("idmapel",$idmapel);
 		return $this->db->get("bab");
 	}
-	
+
 	public function guru_siswaeval($idbab)
 	{
 		$thnajar=$this->thnajar();
@@ -137,7 +137,7 @@ class M_guru extends CI_Model {
 		if ($idbab != null or $_GET['idbab'] == null){
 		$query=$this->db->query
 		("select distinct e.nis, s.nama, round(e.nilai,2) as nilai
-		from evaluasi e 
+		from evaluasi e
 		join siswa s on(e.nis=s.nis)
 		where e.idbab='".$idbab."'
 		");
@@ -165,7 +165,7 @@ class M_guru extends CI_Model {
 		where k.idkelas='".$_GET['idkelas']."' and ks.thnajar=".$_GET['thnajar']."");
 		return $query;*/
 		$query=$this->db->query
-		("select DISTINCT s.nama,s.nis,ROUND(p.nilai,2) as nilai, round(p.skor,2) as skor 
+		("select DISTINCT s.nama,s.nis,ROUND(p.nilai,2) as nilai, round(p.skor,2) as skor
 		from pmp p
 		join siswa s on (p.nis=s.nis)
 		join kelas_siswa ks on(ks.nis=s.nis)
@@ -297,7 +297,7 @@ class M_guru extends CI_Model {
 	{
 	$thnajar=$this->thnajar();
 		$query=$this->db->query
-		("select DISTINCT s.nis, s.nama, if(round(r.skorremedi,2)=0,'',round(r.skorremedi,2)) as skor, if(round(r.remidi,2)=0,'',round(r.remidi,2)) as nilai 
+		("select DISTINCT s.nis, s.nama, if(round(r.skorremedi,2)=0,'',round(r.skorremedi,2)) as skor, if(round(r.remidi,2)=0,'',round(r.remidi,2)) as nilai
 		from kelas k
 		join kelas_siswa ks on(k.idkelas=ks.idkelas)
 		join siswa s on (ks.nis=s.nis)
@@ -794,7 +794,7 @@ class M_guru extends CI_Model {
 	public function wali_babdkn($thnajar, $idmapel, $idkelas, $semester)
 	{
 //		$thnajar=$_GET['thnjar'];
-		
+
 
 		$query=$this->db->query
 		("select DISTINCT b.KD, m.kkm, b.idbab
